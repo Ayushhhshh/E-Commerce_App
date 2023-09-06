@@ -5,12 +5,15 @@ class HomePage extends StatelessWidget {
 
   @override
   var days = 'first';
-  Widget build(BuildContext context) {
+
+  HomePage({super.key});
+  @override
+  Widget build(BuildContext context) {  
     return Scaffold(
      appBar: AppBar(
-      title: Text("Catalog App"),
+      title: const Text("Catalog App"),
      ),
-     drawer: Drawer(),
+     drawer: const Drawer(),
      body: Container(
       child: Center(
         child: Text("Here's my $days app"),
