@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
+class YourHomePage extends StatelessWidget {
   // const MyWidget({super.key});
 
-  @override
-  var days = 'first';
+ 
 
-  HomePage({super.key});
+  YourHomePage({super.key});
   @override
   Widget build(BuildContext context) {  
     return Scaffold(
@@ -16,7 +15,7 @@ class HomePage extends StatelessWidget {
      drawer: const Drawer(),
      body: Container(
       child: Center(
-        child: Text("Here's my $days app"),
+        child: Text("Welcome to the catalog App"),
       ),
      ),   
           );
