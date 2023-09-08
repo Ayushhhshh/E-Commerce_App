@@ -61,7 +61,7 @@ class _LoginPageState extends State<LoginPage> {
                     // ignore: unused_label
                     changeButton=true;
                   });
-                  await Future.delayed(Duration(seconds: 2));
+                  await Future.delayed(Duration(seconds: 1));
                     Navigator.pushNamed(context, MyRoutes.homeRoute);
                   },
                   child: AnimatedContainer(
