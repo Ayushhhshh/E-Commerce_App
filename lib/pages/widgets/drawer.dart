@@ -8,14 +8,14 @@ class MyDrawer extends StatelessWidget {
     final imageURL = "https://ayushhhshh.github.io/My.Portfolio/assets/img/pro.JPG";
     return Drawer(
       child: Container(
-         decoration: BoxDecoration(color: Color.fromARGB(255, 93, 109, 192)),
+         decoration: BoxDecoration(color: Colors.deepPurple),
         child: ListView(
           children: [
             DrawerHeader(
               padding: EdgeInsets.zero,
               child: UserAccountsDrawerHeader(
                 margin: EdgeInsets.zero,
-                decoration: BoxDecoration(color: Color.fromARGB(255, 93, 109, 192)),
+                decoration: BoxDecoration(color: Colors.deepPurple),
                 accountName:Text("Ayush Jain"),
                 accountEmail: Text("ayushjain0314@gmail.com"),
                 currentAccountPicture: CircleAvatar(
@@ -32,6 +32,7 @@ class MyDrawer extends StatelessWidget {
               ),
               ),
              ),
+             
              ListTile(
               leading: Icon(CupertinoIcons.profile_circled,color: Colors.white,),
               title: Text("Profile",
@@ -41,7 +42,28 @@ class MyDrawer extends StatelessWidget {
               ),
               ),
              ),
+         
              ListTile(
+              leading: Icon(CupertinoIcons.heart_fill,color: Colors.white,),
+              title: Text("Wishlist",
+              textScaleFactor: 1.2,
+              style: TextStyle(
+                color: Colors.white
+              ),
+              ),
+             ),
+
+              ListTile(
+              leading: Icon(CupertinoIcons.cart,color: Colors.white,),
+              title: Text("Your Cart",
+              textScaleFactor: 1.2,
+              style: TextStyle(
+                color: Colors.white
+              ),
+              ),
+             ),
+
+                 ListTile(
               leading: Icon(CupertinoIcons.settings,color: Colors.white,),
               title: Text("Settings",
               textScaleFactor: 1.2,
@@ -49,7 +71,9 @@ class MyDrawer extends StatelessWidget {
                 color: Colors.white
               ),
               ),
-             )
+             ),
+
+             
              
           ],
         ),

@@ -10,8 +10,9 @@ class YourHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {  
     return Scaffold(
-     appBar: AppBar(surfaceTintColor: Colors.black,shadowColor: Colors.black,backgroundColor: Colors.indigo,
-      title: const Text("Catalog App"),
+     appBar: AppBar(surfaceTintColor: Colors.black,shadowColor: Colors.black,backgroundColor: Colors.deepPurple,
+      iconTheme: IconThemeData(color: Colors.white),
+      title: const Text("Catalog App",style: TextStyle(color: Colors.white),),
      ),
      drawer: MyDrawer(),
      body: Container(
