@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
       fontFamily : GoogleFonts.lato().fontFamily,
       ),
       debugShowCheckedModeBanner: false,
+      title: 'E-Commerce App',
     routes: {
       // "/": (context) =>  YourHomePage(),
       MyRoutes.homeRoute: (context) => YourHomePage(),
