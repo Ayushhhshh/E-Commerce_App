@@ -19,12 +19,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home : LoginPage(),
       themeMode: ThemeMode.dark,
-      theme: ThemeData(
-        primarySwatch: Colors.red
-      ),
+      // theme: 
       // initialRoute: "/home",
-      darkTheme: ThemeData(primarySwatch: Colors.deepPurple,
-      fontFamily : GoogleFonts.lato().fontFamily,
+      darkTheme: ThemeData(primarySwatch: Colors.deepPurple
       ),
       debugShowCheckedModeBanner: false,
       title: 'E-Commerce App',
