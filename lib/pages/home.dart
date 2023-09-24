@@ -10,16 +10,18 @@ class YourHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {  
     return Scaffold(
-     appBar: AppBar(surfaceTintColor: Colors.black,shadowColor: Colors.black,backgroundColor: Colors.deepPurple,
-      iconTheme: IconThemeData(color: Colors.white),
-      title: const Text("Catalog App",style: TextStyle(color: Colors.white),),
+     appBar: AppBar(elevation: 0.00, surfaceTintColor: Colors.black,shadowColor: Colors.black,backgroundColor: Colors.white,
+      iconTheme: IconThemeData(color: Colors.black,),
+      title: const Text("Catalog App",style: TextStyle(color: Colors.black ),),
      ),
      drawer: MyDrawer(),
    body:Container(
-        height: 100,
-        width: 100,
-        color: Colors.indigo,
+        child: Container(
+          height: 100,
+          width: 100,
+          color: Colors.green,
+          ),
       )
     );
   }
-}
+}   

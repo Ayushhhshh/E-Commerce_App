@@ -46,8 +46,8 @@ class MyDrawer extends StatelessWidget {
              ),
          
              ListTile(
-              leading: Icon(CupertinoIcons.heart_fill,color: Colors.white,),
-              title: Text("Wishlist",
+              leading: Icon(CupertinoIcons.mail ,color: Colors.white,),
+              title: Text("Email me",
               textScaleFactor: 1.2,
               style: TextStyle(
                 color: Colors.white
