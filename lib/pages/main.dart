@@ -1,6 +1,6 @@
-import 'package:catalog/pages/home.dart';
-import 'package:catalog/pages/login.dart';
-import 'package:catalog/pages/utils/MyRoutes.dart';
+import 'package:E_commerce_app/pages/home.dart';
+import 'package:E_commerce_app/pages/login.dart';
+import 'package:E_commerce_app/pages/utils/MyRoutes.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 void main(){
@@ -33,5 +33,5 @@ class MyApp extends StatelessWidget {
     
     
     );
-  }
+  } 
 }

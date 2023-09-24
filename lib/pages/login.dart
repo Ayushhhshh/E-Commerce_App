@@ -1,6 +1,6 @@
 // ignore: unused_import
 import 'dart:js_interop';
-import 'package:catalog/pages/utils/MyRoutes.dart';
+import 'package:E_commerce_app/pages/utils/MyRoutes.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {

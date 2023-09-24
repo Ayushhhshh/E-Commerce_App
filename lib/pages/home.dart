@@ -1,4 +1,4 @@
-import 'package:catalog/pages/widgets/drawer.dart';
+import 'package:E_commerce_app/pages/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 class YourHomePage extends StatelessWidget {
@@ -15,12 +15,11 @@ class YourHomePage extends StatelessWidget {
       title: const Text("Catalog App",style: TextStyle(color: Colors.white),),
      ),
      drawer: MyDrawer(),
-     body: Container(
-      child: Center(
-        child:Text("Welcome to the Catalog App" , style: GoogleFonts.roboto (fontSize: 24.0,),
-        
-      ),
-     ),   
-    ));
+   body:Container(
+        height: 100,
+        width: 100,
+        color: Colors.indigo,
+      )
+    );
   }
 }
